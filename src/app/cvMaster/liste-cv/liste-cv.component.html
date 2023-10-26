@@ -1,0 +1,6 @@
+
+<ul class="list-group">
+    <!-- 5-on declare une event binding qui dans le quelle le data sera stocker   -->
+<app-item-cv   (selectedCondidate)="SendCondidatToList($event )" *ngFor="let item of condidats" [condidat]="item"></app-item-cv>
+
+</ul>
