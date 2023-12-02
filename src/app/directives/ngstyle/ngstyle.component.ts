@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./ngstyle.component.css']
 })
 export class NgstyleComponent {
-  color="red";
+  color="green";
+  taille="23px";
+changesize(text:any){
+this.taille= text.value+"px";
+  
+}
+
+
+
+
+
+
+
 }

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgstyleComponent } from './ngstyle.component';
+import { EmbaucherComponent } from './embaucher.component';
 
-describe('NgstyleComponent', () => {
-  let component: NgstyleComponent;
-  let fixture: ComponentFixture<NgstyleComponent>;
+describe('EmbaucherComponent', () => {
+  let component: EmbaucherComponent;
+  let fixture: ComponentFixture<EmbaucherComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NgstyleComponent]
+      declarations: [EmbaucherComponent]
     });
-    fixture = TestBed.createComponent(NgstyleComponent);
+    fixture = TestBed.createComponent(EmbaucherComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

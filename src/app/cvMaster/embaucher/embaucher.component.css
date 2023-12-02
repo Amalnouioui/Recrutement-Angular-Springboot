@@ -1,0 +1,8 @@
+.divison{
+    display: flex;
+    justify-content: space-between;
+}
+#icon{
+    color: red !important;
+    cursor: pointer;
+}

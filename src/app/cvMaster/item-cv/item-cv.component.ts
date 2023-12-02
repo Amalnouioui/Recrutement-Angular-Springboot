@@ -1,11 +1,14 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Condidat } from 'src/app/models/condidat';
 
+
 @Component({
   selector: 'app-item-cv',
   templateUrl: './item-cv.component.html',
-  styleUrls: ['./item-cv.component.css']
+  styleUrls: ['./item-cv.component.css'],
+
 })
+
 export class ItemCvComponent implements OnInit {
 ngOnInit(): void {
  

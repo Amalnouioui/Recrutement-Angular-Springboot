@@ -1,2 +1,12 @@
-<p>ngstyle works!</p>
-<input type="text" [(ngModel)]="color"    >
+<p [ngStyle]="{
+    'color':color,
+    'font-size':taille,
+    'background-color':'#f0e68c',
+    
+
+     }"> ngstyle works!</p>
+
+<input type="color" [(ngModel)]="color">
+votre color est : {{color}} 
+<br>
+<input #text type="number" (change)='changesize(text) ' placeholder="size of p">

@@ -1,0 +1,15 @@
+
+<div class="row">
+    <div *ngFor="let item of condidatEm" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/{{item.image}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{item.nom}} {{item.prenom}}</h5>
+          <p class="card-text">{{item.post}}</p>
+          <div class="divison">
+          <p class="card-text">{{item.email}}</p>
+          <i id="icon" (click)="debaucher(item)"             class="fa fa-thumbs-down" aria-hidden="true"               ></i>
+        </div>
+        </div>
+      </div>
+
+</div>

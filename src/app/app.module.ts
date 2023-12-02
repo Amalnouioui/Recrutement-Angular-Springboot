@@ -9,6 +9,8 @@ import { ListeCvComponent } from './cvMaster/liste-cv/liste-cv.component';
 import { ItemCvComponent } from './cvMaster/item-cv/item-cv.component';
 import { NgstyleComponent } from './directives/ngstyle/ngstyle.component';
 import { FormsModule } from '@angular/forms';
+import { EmbaucherComponent } from './cvMaster/embaucher/embaucher.component';
+import { ROUTING } from './app-routing';
 
 @NgModule({
   declarations:[
@@ -18,13 +20,15 @@ import { FormsModule } from '@angular/forms';
     ListeCvComponent,
     ItemCvComponent,
     NgstyleComponent,
+    EmbaucherComponent,
     
    ],
  
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
